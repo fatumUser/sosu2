@@ -1,0 +1,103 @@
+.section-main {
+    margin-top: 50px;
+}
+.section-main .row {
+    display: grid;
+    align-items: center;
+    gap: 65px;
+    grid-template-columns: 1fr 1fr;
+}
+.section-main .row .desc {
+   max-width: 722px;
+}
+.section-main .row .btn-green {
+    margin-top: 30px;
+}
+
+.section-advantages-v2 {
+    margin-top: 150px;
+}
+.section-advantages-v2 .block-right .block-points {
+    margin-top: 20px;
+}
+.section-advantages-v2 .block-right .block-points .desc {
+    align-items: flex-start;
+}
+.section-advantages-v2 h3 {
+   margin-top: 20px;
+}
+.section-advantages-v2 .block-right {
+    max-width: 1018px;
+}
+.section-advantages-v2 .block-left {
+    
+}
+.section-advantages-v2 .block-left img.img1 {
+    max-width: 573px;
+    margin-left: 0;
+}
+.section-advantages-v2 .block-left img.img2 {
+    max-width: 545px;
+    position: absolute;
+    right: 0;
+}
+h3 {
+    font-family: Pliska;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    text-transform: uppercase;
+    color: #2F2F2F;
+}
+
+.section-location {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.section-location h2 {
+    text-align: center;
+}
+.section-location .cart {
+    margin-top: 20px;
+}
+.section-location .cart iframe {
+    width: 100%;
+}
+.section-location .desc {
+    max-width: 871px;
+    margin-top: 20px;
+}
+
+
+.section-apartments-family {
+   margin-top: 150px;
+}
+.section-apartments-family .row {
+    display: flex;
+    align-items: start;
+    gap: 80px;
+}
+.section-apartments-family .row .block-right img {
+    width: 100%;
+}
+.section-apartments-family .row h2 {
+    min-width: max-content;
+}
+
+.section-how-buy-apartment {
+    display: flex;
+    gap: 50px;
+    margin-top: 205px;
+}
+.section-how-buy-apartment .block-left {}
+.section-how-buy-apartment .block-left img {
+    max-width: 693px;
+    width: 100%;
+}
+.section-how-buy-apartment .block-right {
+    max-width: 1017px;
+}
+.section-how-buy-apartment .block-right .block-desc {
+    display: grid;
+    gap: 15px;
+}

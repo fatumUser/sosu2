@@ -1,0 +1,28 @@
+.section-main .row-buttons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+.section-main .row-buttons .btn {
+  padding: 20px 40px;
+  border: 1px solid #659b5e;
+}
+.section-main .row-buttons .btn p {
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-transform: uppercase;
+  color: #659b5e;
+}
+.section-main_row-buttons_btn-active {
+    background: #659b5e;
+}
+.section-main_row-buttons_btn-active p {
+    color: #fff !important;
+}
+
+.section-main .block-slider {
+    margin-top: 40px;
+}
